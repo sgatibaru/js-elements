@@ -1,7 +1,5 @@
 # Installation
 
-After downloading the file from Themeforest, You will find SuperProps.zip file. Then unzip the SuperProps.zip and run the following commands on SuperProps folder to get started with the project.
-
 ```
 yarn
 ```
@@ -122,17 +120,6 @@ path: '',
 };
 
 Then , run `next build && next export` in your terminal.
-
-## Running with Docker
-
-To run the SuperProps Next.js app in docker
-
-```
-yarn next-export
-docker build -t superprops/landing-next -f ./packages/landing/Dockerfile .
-docker run -it -p 3000:3000 superprops/landing-next:latest
-Open http://localhost:3000
-```
 
 # Deployment Support
 
